@@ -4,19 +4,21 @@
 ### AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
-### Equipments Required:
+# Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
 Theory
 Adders are digital circuits that carry out addition of numbers.
 
-### Half Adder
+# Half Adder
 Half adder is a combinational circuit that performs simple addition of two binary numbers. The input variables designate the augend and addend bits; the output variables produce the sum and carry. It is necessary to specify two output variables because the result may consist of two binary digits.
 
 Sum = A’B+AB’ =A ⊕ B Carry = AB  
 
-![image](https://user-images.githubusercontent.com/36288975/163552156-a13e5a56-c638-4110-97d9-8896907c8d25.png) 
-### Procedure
+![image](https://user-images.githubusercontent.com/36288975/163552156-a13e5a56-c638-4110-97d9-8896907c8d25.png)  
+
+#  Figure -01 HALF ADDER 
+# Procedure
 
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
@@ -36,7 +38,7 @@ and carry1(carry,a,b);
 endmodule
  ```
 # output :
-RTL realization 
+# RTL realization 
 ![image](https://github.com/Akshaya3563/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155092474/5bf461de-9833-46db-bc5f-63329091a29f)
 
 # TIMING DIAGRAM
@@ -76,8 +78,8 @@ xor(sum,a,b,c);
 assign carry=a&b | b&c | a&c;
 endmodule
  ```
- 
-RTL realization  
+# OUTPUT:
+# RTL realization  
 ![image](https://github.com/Akshaya3563/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155092474/4cc194b0-b88b-41ec-b0f0-9a940d4f8c7d)
 
 
