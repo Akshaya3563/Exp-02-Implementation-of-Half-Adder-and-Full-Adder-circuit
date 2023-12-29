@@ -39,16 +39,32 @@ Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 Developed by: 
-RegisterNumber:  
+RegisterNumber:
+ ```
+module project_3(sum,carry,a,b); 
+input a,b; 
+output sum,carry; 
+xor sum1(sum,a,b); 
+and carry1(carry,a,b); 
+endmodule
+ ```
 */
 Logic symbol & Truthtable
-RTL realization
+RTL realization 
+![image](https://github.com/Akshaya3563/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155092474/b618da8f-97e9-4c04-aab9-6829a37f4e17)
+
 
 ### Output:
-### RTL
+### RTL 
+
 ### TIMING DIAGRAM
+![image](https://github.com/Akshaya3563/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155092474/b7a6b478-1d95-48e1-80e7-88b2624b71dd)
 
 
-### TRUTH TABLE 
+### TRUTH TABLE
+ ![image](https://github.com/Akshaya3563/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155092474/dc0e7683-5585-48ae-8398-b20b0d81d4b2)
+
+
 
 ### Result:
+Thus the given logic functions are implemented and their operations are verified using verilog programming
