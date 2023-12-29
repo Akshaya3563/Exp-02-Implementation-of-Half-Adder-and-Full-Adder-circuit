@@ -39,7 +39,6 @@ xor sum1(sum,a,b);
 and carry1(carry,a,b); 
 endmodule
  ```
-# output :
 # RTL realization:
 ![image](https://github.com/Akshaya3563/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155092474/5bf461de-9833-46db-bc5f-63329091a29f)
 
@@ -81,7 +80,6 @@ xor(sum,a,b,c);
 assign carry=a&b | b&c | a&c;
 endmodule
  ```
-# OUTPUT:
 # RTL realization: 
 ![image](https://github.com/Akshaya3563/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155092474/4cc194b0-b88b-41ec-b0f0-9a940d4f8c7d)
 
