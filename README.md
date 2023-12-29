@@ -19,7 +19,7 @@ Sum = A’B+AB’ =A ⊕ B Carry = AB
 
 ![image](https://user-images.githubusercontent.com/36288975/163552156-a13e5a56-c638-4110-97d9-8896907c8d25.png)  
 
-#  Figure -01 HALF ADDER 
+Figure -01 HALF ADDER 
 # Procedure:
 
 Connect the supply (+5V) to the circuit
@@ -61,7 +61,7 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
 ![image](https://user-images.githubusercontent.com/36288975/163552057-b3547877-6d07-45b4-b7e0-bcfebfad9e1d.png)
 
-#  Figure -02 FULL ADDER 
+Figure -02 FULL ADDER 
 
 #  Procedure:
 
