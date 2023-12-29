@@ -44,7 +44,8 @@ endmodule
 ![image](https://github.com/Akshaya3563/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155092474/5bf461de-9833-46db-bc5f-63329091a29f)
 
 # TIMING DIAGRAM:
-![image](https://github.com/Akshaya3563/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155092474/d94b4d3b-dd48-417d-ba6e-87ee5e8acbae)
+![image](https://github.com/Akshaya3563/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155092474/805023f0-0169-4803-bffd-04ee5e36f1db)
+
 
 
 
